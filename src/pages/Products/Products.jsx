@@ -105,16 +105,16 @@ const Products = () => {
           className="border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[var(--clr-focussed)] w-full md:w-44"
         >
           <option value="">All Brands</option>
-          <option value="SoundMagic">BlendMaster</option>
-          <option value="SoundWave">StreamMaster</option>
-          <option value="TimeTech">CookTech</option>
-          <option value="CaptureIt">WearTech</option>
-          <option value="CaptureIt">HealthTech</option>
-          <option value="CaptureIt">BrewMaster</option>
-          <option value="CaptureIt">ArtTech</option>
-          <option value="CaptureIt">CinemaSound</option>
-          <option value="CaptureIt">PureAir</option>
-          <option value="CaptureIt">ScootTech</option>
+          <option value="BlendMaster">BlendMaster</option>
+          <option value="StreamMaster">StreamMaster</option>
+          <option value="CookTech">CookTech</option>
+          <option value="BandTech">BandTech</option>
+          <option value="ThermoCare">ThermoCare</option>
+          <option value="BrewMaster">BrewMaster</option>
+          <option value="ArtTech">ArtTech</option>
+          <option value="CinemaSound">CinemaSound</option>
+          <option value="PureAir">PureAir</option>
+          <option value="ScootTech">ScootTech</option>
         </select>
 
         <select
@@ -123,16 +123,12 @@ const Products = () => {
           className="border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[var(--clr-focussed)] w-full md:w-44"
         >
           <option value="">All Categories</option>
-          <option value="Electronics">Home</option>
-          <option value="Wearables">Electronics</option>
-          <option value="Kitchen Appliances">Wearables</option>
-          <option value="Office Accessories">Health</option>
-          <option value="Home Appliances">Computers</option>
-          <option value="Personal Care">Transportation</option>
-          <option value="Personal Care">Accessories</option>
-          <option value="Personal Care">Smart Devices</option>
-          <option value="Personal Care">Security</option>
-          <option value="Personal Care">Kitchen</option>
+          <option value="Home">Home</option>
+          <option value="Wearables">Wearables</option>
+          <option value="Health">Health</option>
+          <option value="Computers">Computers</option>
+          <option value="Transportation">Transportation</option>
+          <option value="Accessories">Accessories</option>
         </select>
 
         <input
