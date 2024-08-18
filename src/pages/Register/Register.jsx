@@ -4,8 +4,8 @@ import { useContext, useState } from "react";
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
 import { CiWarning } from "react-icons/ci";
 import Swal from "sweetalert2";
-import { AuthContext } from "../../Provider/AuthProvider";
 import { updateProfile } from "firebase/auth";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const Register = () => {
   const [showPass, setShowPass] = useState(false);

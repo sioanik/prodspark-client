@@ -1,5 +1,4 @@
 import { FaFacebookF, FaInstagram, FaLocationArrow, FaPhone, FaTwitter } from "react-icons/fa";
-import logo from "/favicon.png";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
@@ -15,9 +14,8 @@ const Footer = () => {
         {/* Logo+name & social media */}
         <div className="max-w-80 flex flex-col ">
           <div className="cursor-pointer flex items-center gap-2 flex-1  mb-4">
-            <img src={logo} alt="" className="w-8" />
             <h3>
-              <span className="text-[var(--clr-focussed)]">Product</span>Explorer
+              <span className="text-[var(--clr-focussed)]">Prod</span>Spark
             </h3>
           </div>
 

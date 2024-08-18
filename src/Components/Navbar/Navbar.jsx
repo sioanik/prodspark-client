@@ -14,8 +14,8 @@ import { Link, NavLink } from "react-router-dom";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import Swal from "sweetalert2";
 import { AiOutlineLogout } from "react-icons/ai";
-import { AuthContext } from "../../Provider/AuthProvider";
 import avatar from "../../assets/avatar.png";
+import { AuthContext } from "../../pages/Provider/AuthProvider";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -66,7 +66,7 @@ const Navbar = () => {
         {/* website name */}
         <div className="cursor-pointer flex items-center gap-2">
           <h3>
-            <span className="text-[var(--clr-focussed)]">Product</span>Explorer
+            <span className="text-[var(--clr-focussed)]">Prod</span>Spark
           </h3>
         </div>
 

@@ -41,7 +41,7 @@ const Products = () => {
       itemsPerPage,
     ],
     queryFn: async () => {
-      const res = await axios.get("https://product-explorer-server.vercel.app/products", {
+      const res = await axios.get("https://prodspark-server.vercel.app/products", {
         params: {
           q: filterQuery,
           brand,
@@ -98,17 +98,23 @@ const Products = () => {
       </div>
 
       {/* Filter and Sort Options */}
-      <div className="flex justify-between flex-wrap gap-2">
+      <div className="flex md:justify-center flex-wrap gap-2">
         <select
           onChange={(e) => setBrand(e.target.value)}
           value={brand}
           className="border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[var(--clr-focussed)] w-full md:w-44"
         >
           <option value="">All Brands</option>
-          <option value="SoundMagic">SoundMagic</option>
-          <option value="SoundWave">SoundWave</option>
-          <option value="TimeTech">TimeTech</option>
-          <option value="CaptureIt">CaptureIt</option>
+          <option value="SoundMagic">BlendMaster</option>
+          <option value="SoundWave">StreamMaster</option>
+          <option value="TimeTech">CookTech</option>
+          <option value="CaptureIt">WearTech</option>
+          <option value="CaptureIt">HealthTech</option>
+          <option value="CaptureIt">BrewMaster</option>
+          <option value="CaptureIt">ArtTech</option>
+          <option value="CaptureIt">CinemaSound</option>
+          <option value="CaptureIt">PureAir</option>
+          <option value="CaptureIt">ScootTech</option>
         </select>
 
         <select
@@ -117,12 +123,16 @@ const Products = () => {
           className="border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[var(--clr-focussed)] w-full md:w-44"
         >
           <option value="">All Categories</option>
-          <option value="Electronics">Electronics</option>
-          <option value="Wearables">Wearables</option>
-          <option value="Kitchen Appliances">Kitchen Appliances</option>
-          <option value="Office Accessories">Office Accessories</option>
-          <option value="Home Appliances">Home Appliances</option>
-          <option value="Personal Care">Personal Care</option>
+          <option value="Electronics">Home</option>
+          <option value="Wearables">Electronics</option>
+          <option value="Kitchen Appliances">Wearables</option>
+          <option value="Office Accessories">Health</option>
+          <option value="Home Appliances">Computers</option>
+          <option value="Personal Care">Transportation</option>
+          <option value="Personal Care">Accessories</option>
+          <option value="Personal Care">Smart Devices</option>
+          <option value="Personal Care">Security</option>
+          <option value="Personal Care">Kitchen</option>
         </select>
 
         <input
